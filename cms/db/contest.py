@@ -87,7 +87,7 @@ class Contest(Base):
     languages = Column(
         ARRAY(String),
         nullable=False,
-        default=["C11 / gcc", "C++11 / g++", "Python 3 / PyPy", "Java / JDK", "Go", "Haskell / ghc"])
+        default=["C11 / gcc", "C++11 / g++", "Python 3 / PyPy", "Java / JDK", "Go", "Haskell / ghc", "C# / Mono"])
 
     # Whether contestants allowed to download their submissions.
     submissions_download_allowed = Column(
